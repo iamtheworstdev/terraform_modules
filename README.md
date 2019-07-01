@@ -8,6 +8,7 @@ Doesn't mean much for Terraform 0.11.x users except that you may need to change 
 
 1. Multi-region API Gateway
 1. Really bad global dynamodb table (it'll work but you'll want to review it before throwing it in production)
+1. SNS to SQS queue that encrypts **_at rest_**.
 
 ### Todo
 
